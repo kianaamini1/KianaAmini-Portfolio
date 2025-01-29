@@ -1,9 +1,12 @@
 const projectsData = [
     {
       id: 1,
-      title: "Project Title 1",
+      title: "Aether",
       category: "UI/UX", 
-      heroImage: "path/to/hero-image1.jpg",
+      heroImage: "/images/Aether.jpeg",
+      description:
+      "Aether is an AI-powered app designed to assist caregivers in managing and completing essential forms efficiently. By leveraging AI, Aether simplifies complex forms, provides auto-fill suggestions, and ensures all required fields are completed accurately. The app’s user-friendly interface helps reduce the stress of form-related tasks, allowing caregivers to focus more on their clients’ needs.",
+    date: "sept 2024 - Dec 2024",
     },
     {
         id: 2,
@@ -21,12 +24,16 @@ const projectsData = [
     },
     {
       id: 3,
-      title: "Underwater",
+      title: "CanaVino: canned label",
       category: "Graphics",
-      heroImage: "/images/underwater.jpeg",
+      heroImage: "/images/redWine.png",
       description:
-      "Super cool underwater photo",
-    date: "Nov 2024 - Dec 2024",
+      "Designed a beverage can label series that highlights the sophistication of canned wine. Developed three variations—red, white, and rosé—each featuring a clean, cohesive aesthetic that reflects the elegance of wine while maintaining a modern appeal. Balanced minimalism and refinement to create a strong brand identity and impactful shelf presence.",
+    date: "Nov 2024 - Nov 2024",
+    additionalImages: [
+      "/images/rosewine.png",
+      "/images/WhiteWine.png",
+    ],
     },
     {
       id: 4,
@@ -39,9 +46,23 @@ const projectsData = [
     },
     {
       id: 5,
-      title: "Project Title 5",
+      title: "Fashion",
       category: "Personal",
-      heroImage: "path/to/hero-image5.jpg",
+      heroImage: "/images/Gemma1.jpeg",
+      description:
+      "Directed and executed a photoshoot to highlight a designer’s (Isabella Hill) portfolio, capturing designs with precision and creativity. Styled and composed shots to effectively communicate the designer's vision and brand identity.",
+    date: "August 2024",
+    additionalImages: [
+      "/images/Gemma2.jpeg",
+      "/images/Gemma3.jpeg",
+      "/images/Gemma3.jpeg",
+      "/images/Gemma3.jpeg",
+      "/images/Gemma3.jpeg",
+      "/images/Gemma3.jpeg",
+      "/images/Gemma3.jpeg",
+      "/images/Gemma3.jpeg",
+      "/images/Gemma3.jpeg",
+    ],
     },
     {
       id: 6,
@@ -49,6 +70,7 @@ const projectsData = [
       category: "Personal",
       heroImage: "path/to/hero-image6.jpg",
     },
+    
   ];
   
   export default projectsData;
