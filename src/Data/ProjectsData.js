@@ -17,9 +17,9 @@ const projectsData = [
       "Created a striking poster of Elias Pettersson, inspired by his electrifying presence on the ice. The design features clean typography and bold visuals, capturing his energy and precision while resonating with Canucks fans. This project was crafted using Adobe Photoshop and Illustrator, emphasizing dynamic elements to celebrate Pettersson’s impact in the hockey world.",
     date: "Nov 2024 - Dec 2024",
     additionalImages: [
-      "/images/elias-pettersson.png",
-      "/images/elias-pettersson.png",
-      "/images/elias-pettersson.png",
+      "/images/petey-mock3.jpg",
+      "/images/bus-mock.jpg",
+      "/images/poster-mockteam.jpg",
     ],
     },
     {
